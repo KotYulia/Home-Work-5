@@ -1,0 +1,65 @@
+@font-face {
+	font-family: "AFKlampenborg";
+	src: url(../fonts/afklampenborg-medium.ttf);
+	src: url(../fonts/afklampenborg-medium.eot);
+	src: url(../fonts/afklampenborg-medium.svg);
+	src: url(../fonts/afklampenborg-medium.woff);
+}
+
+
+body {
+	background: linear-gradient(to bottom, #ced8d9, #fff) no-repeat;
+	background: -moz-linear-gradient(to bottom, #ced8d9, #fff) no-repeat;
+	background: -webkit-linear-gradient(to bottom, #ced8d9, #fff) no-repeat;
+	background: -o-linear-gradient(to bottom, #ced8d9, #fff) no-repeat;
+	background: -ms-linear-gradient(to bottom, #ced8d9, #fff) no-repeat;
+}
+.wrapper {
+	width: 776px;
+	margin: 0 auto;
+}
+
+
+.logon {
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 17px;
+}
+.logon button {
+	background-color: #fff;
+	border: none;
+	border-radius: 0 0 20px 20px;
+	padding: 7px 21px;
+	font: 400 11px "Arial", regular;
+}
+.registration {
+	border-right: 1px solid #959595;
+	color: #747474;
+	padding-right: 10px;
+}
+.login {
+	color: #02a4fa;
+	margin-left: 10px;
+}
+
+.logotype {
+	width: 271px;
+	display: flex;
+	margin: 17px auto 19px 0;
+	/*padding: 21px 0 24px 170px;*/
+}
+.logotype h1 {
+	font: 500 21px "AFKlampenborg", Medium;
+	color: #939598;
+	width: 101px;
+}
+.logotype div, .cherkassy {
+	display: flex;
+}
+.community {
+	width: 305px;
+	color: #646464;
+	font: 400 15px "Helios", Regular;
+	margin: 45px 29px 42px auto;
+}
+
