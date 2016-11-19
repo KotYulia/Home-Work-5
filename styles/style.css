@@ -70,6 +70,9 @@ body {
 }
 
 
+.content {
+	display: flex;
+}
 .tabs ul {
 	display: flex;
 	justify-content: flex-end;
@@ -85,15 +88,11 @@ body {
 .tabs ul {
 	border-bottom: 1px solid #939598;
 }
-.tabs ul li:first:child {
-	content: '';
-	border-bottom: none;
-}
 .main {
 	color: #45b8fb;
 	border-left: 1px solid #939598;
 	border-right: 1px solid #939598;
-	border-bottom: none;
+	outline: #e8eced solid 1px;
 	border-top-left-radius: 30px;
 	background: linear-gradient(to top, #e9edee, #fff 60%) no-repeat;
 	background: -moz-linear-gradient(to top, #e9edee, #fff 60%) no-repeat;
@@ -116,7 +115,7 @@ nav h2 {
 	font: 400 20px "Arial", Regular;
 	color: #03a7fe;
 	margin-top: 25px;
-	margin-bottom: 33px;
+	margin-bottom: 26px;
 }
 nav h2:after {
 	content: '';
@@ -202,4 +201,120 @@ nav ul li:last-child {
 	-o-filter: none;
 	filter: none;
 	filter: none;
+}
+
+
+.main-info {
+	width: 528px;
+	margin-top: 64px;
+}
+.main-info h2 {
+	font: 400 26px "Arial", Regular;
+	color: #010101;
+	padding-bottom: 16px;
+	border-bottom: 1px solid #00a7fb;
+}
+.main-info ul li{
+	display: flex;
+	padding: 17px 0 18px 11px;
+	border-bottom: 1px solid #00a7fb;
+}
+.main-info img {
+	margin-right: 21px;
+}
+.main-info caption {
+	color: #03a7fe;
+	font: 400 22px "Arial", Regular;
+	text-align: left;
+}
+.info-company table {
+	width: 393px;
+	color: #505050;
+	font: 400 12px "Arial", Regular;
+}
+.dark {
+	background-color: #dfe5e6;
+}
+.info-company table tr td {
+	padding: 7px 0 6px 8px;
+}
+.gray {
+	background-color: #edf0f1;
+}
+.left {
+	margin-left: 218px;
+}
+.border {
+	border-bottom: 3px solid #fff;
+}
+.tel a, .skype a, .mail a, .social-network a {
+	color: black;
+	margin-left: 200px;
+}
+.site a {
+	color: #03a7fe;
+}
+.tel a:before {
+	content: '';
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url("../images/telefone.png");
+	margin-right: 6px;
+}
+.skype a:before {
+	content: '';
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url("../images/skype.png");
+	margin-right: 6px;
+}
+.mail a:before {
+	content: '';
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url("../images/at.png");
+	margin-right: 6px;
+}
+.social-network a:before {
+	content: '';
+	display: inline-block;
+	width: 10px;
+	height: 13px;
+	background: url("../images/t.png");
+	margin-right: 6px;
+}
+
+
+.copyright {
+	margin-top: 96px;
+	border-top: 1px solid #a4a4a6;
+	display: flex;
+	justify-content: flex-end;
+	
+}
+.copyright p {
+	font: 400 10px "Arial", Regular;
+	color: #78797b;
+	padding: 10px 0 10px 12px;
+	width: 503px;
+	margin-right: 25px;
+	margin-bottom: 32px;
+	background-color: #d9dada;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+.copyright span {
+	color: black;
+}
+.copyright p:after {
+	content: '';
+	display: inline-flex;
+	justify-content: space-between;	
+	width: 26px;
+	height: 14px;
+	background: url("../images/smart-object-master.png");
+	margin-left: 245px;
 }
