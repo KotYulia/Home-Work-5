@@ -145,3 +145,52 @@ nav ul li:last-child {
 	content: '';
 	border-bottom: none;
 }
+
+
+.rss {
+	width: 230px;
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid #cbcac9;
+	border-top: 1px solid #cbcac9;
+	padding-bottom: 16px;
+	padding-top: 15px;
+	margin-top: 39px;
+}
+.rss button {
+	font: 500 21px "AFKlampenborg", Medium;
+	color: #939598;
+	padding: 7px 24px 8px 25px;
+	border-radius: 20px;
+	background-color: white;
+	border: 3px solid #ff9600;
+}
+.rss button:before {
+	content: '';
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	margin-right: 6px;
+	background: url("../images/smart-object.png");
+}
+
+.logotypes-company img {
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+ 	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+.logotypes-company img:hover {
+	-webkit-filter: none;
+	-moz-filter: none;
+	-ms-filter: none;
+	-o-filter: none;
+	filter: none;
+	filter: none;
+}
