@@ -76,7 +76,7 @@ body {
 .tabs ul {
 	display: flex;
 	justify-content: flex-end;
-	color: #939598;
+	border-bottom: 1px solid #939598;
 	font: 400 16px "Arial", Regular;
 }
 .tabs ul li {
@@ -85,14 +85,15 @@ body {
 	border-top: 1px solid #939598;
 	padding: 18px 0;
 }
-.tabs ul {
-	border-bottom: 1px solid #939598;
+.tabs a {
+	color: #939598;
 }
 .main {
 	color: #45b8fb;
 	border-left: 1px solid #939598;
 	border-right: 1px solid #939598;
-	outline: #e8eced solid 1px;
+	border-bottom-color: #e8eced;
+	margin-bottom: -1px;
 	border-top-left-radius: 30px;
 	background: linear-gradient(to top, #e9edee, #fff 60%) no-repeat;
 	background: -moz-linear-gradient(to top, #e9edee, #fff 60%) no-repeat;
